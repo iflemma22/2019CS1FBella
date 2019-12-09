@@ -3,13 +3,13 @@ $(".box") .click(
          
          var title = $(".title",this).text();
          var number= $(".number",this).text();
-         var description= $(".description",this).text();
+         var description= $(".description",this).html();
          
          console.log(description);
          console.log(title);
          console.log(number);
          
-         $(".description",".popup").text(description); 
+         $(".description",".popup").html(description); 
          $(".title",".popup").text(title);
          $(".number",".popup").text(number); 
          
