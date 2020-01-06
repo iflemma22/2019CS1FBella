@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.box1{
+    background-color:#228B22;
+    height:150px;
+    width:275px;
+    display:inline-block;
+    margin:auto;
+}
+
+.box2{
+   background-color:blue;
+    height:150px;
+    width:275px; 
+    display:inline-block;
+    position:relative;
+   
+}
+
