@@ -6,6 +6,7 @@
     width:275px;
     display:inline-block;
     margin:auto;
+    overflow:hidden;
 }
 
 .box2{
@@ -15,5 +16,14 @@
     display:inline-block;
     position:relative;
    
+}
+
+.word{
+    color: aliceblue;
+    text-align:center;
+    transform: translateY(50%);
+    font-size: 30px;
+
+
 }
 
